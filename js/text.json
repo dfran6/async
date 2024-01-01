@@ -1,0 +1,34 @@
+[
+    
+    {
+        "name":"Francis",
+        "id":1, 
+        "state": "Delta"
+    },
+
+    {
+        "name":"Daniel",
+        "id":2, 
+        "state": "Lagos"
+    },
+
+    {
+        "name":"David",
+        "id":3, 
+        "state": "Bayelsa"
+    },
+
+    {
+        "name":"Joel",
+        "id":4, 
+        "state": "Rivers"
+    },
+
+    {
+        "name":"Favour",
+        "id":5, 
+        "state": "Akwa Ibom"
+    }
+
+
+]

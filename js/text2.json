@@ -1,0 +1,23 @@
+[
+    {
+    "Username":"cheetah",
+    "id":0.01,
+    "speed": "47km/hr",
+    "sound()":"pruuh"
+    },
+
+    {
+        "Username":"cat",
+        "id":0.03,
+        "speed": "10km/hr",
+        "sound()":"meow"
+    },
+    
+    {
+        "Username":"lion",
+        "id":0.02,
+        "speed": "40km/hr",
+        "sound()":"rawrr"
+    }
+
+]
