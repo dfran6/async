@@ -1,0 +1,25 @@
+[
+    {
+        "name":"Juice wrld",
+        "Albums": 4,
+        "tracks": "999+"
+    },
+
+    {
+        "name":"Micheal Jackson",
+        "Albums": 20,
+        "tracks": "100+"
+    },
+
+    {
+        "name":"Post Malone",
+        "Albums": 5,
+        "tracks": "70+"
+    },
+
+    {
+        "name":"Don Williams",
+        "Albums": 6,
+        "tracks": "50+"
+    }
+]

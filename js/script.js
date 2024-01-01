@@ -64,3 +64,29 @@ collect().then((data2) => {
 .catch((err)=>{
     document.body.innerHTML="<h1> ERROR 404 </h1> <br> " + err.message;
 })
+
+
+
+//async 3
+
+async function take(url){
+    const response3 = await fetch(url);
+
+   if (response3.status !== 200) {
+    throw new Error(`<h1> ${response3.status} Page Not Found. </h1>`);
+   };
+
+   const data3 =  await response3.json();
+   return data3;
+}
+
+const link ="/js/text3.json";
+
+take(link)
+.then((data3)=>{
+    console.log("Approved: ", data3);
+    document.body.innerHTML= `Approved: <br> ${JSON.stringify(data3)}`;
+})
+.catch((err)=>{
+    document.body.innerHTML= `There was a problem ${err.message}`;
+})
