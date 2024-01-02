@@ -78,7 +78,7 @@ async function take(url){
 
    const data3 =  await response3.json();
    return data3;
-}
+};
 
 const link ="/js/text3.json";
 
@@ -90,3 +90,7 @@ take(link)
 .catch((err)=>{
     document.body.innerHTML= `There was a problem ${err.message}`;
 })
+
+
+
+//testting my repo --git stuff
